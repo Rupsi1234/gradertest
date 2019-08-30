@@ -1,0 +1,166 @@
+{
+  "type": "Sum",
+  "score": 100,
+  "rules": [
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Cash\".",
+            "failureText": "Cell Text should be \"Cash\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "BJyelaFeJmr"
+        }
+      ],
+      "type": "Sum",
+      "id": "HkCeatg1QH"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$17,300\".",
+            "failureText": "Cell Text should be \"$17,300\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "Sk-ggTKgkXS"
+        }
+      ],
+      "type": "Sum",
+      "id": "rkexgpYgkmH"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Accounts Receivable\".",
+            "failureText": "Cell Text should be \"Accounts Receivable\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "BJNex6Fe1QH"
+        }
+      ],
+      "type": "Sum",
+      "id": "S1XxeTKlyQS"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$33,550\".",
+            "failureText": "Cell Text should be \"$33,550\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "S18glTtxJQH"
+        }
+      ],
+      "type": "Sum",
+      "id": "B1rlgpKgkQS"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Fees Earned\".",
+            "failureText": "Cell Text should be \"Fees Earned\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "B1Rbx6Kekmr"
+        }
+      ],
+      "type": "Sum",
+      "id": "HypZgTKg1mH"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$409,255\".",
+            "failureText": "Cell Text should be \"$409,255\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "rybze6teJXS"
+        }
+      ],
+      "type": "Sum",
+      "id": "BJxGepYekXS"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Wages Expense\".",
+            "failureText": "Cell Text should be \"Wages Expense\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HyXzgpFly7r"
+        }
+      ],
+      "type": "Sum",
+      "id": "SJfGlaYekQr"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$243,250\".",
+            "failureText": "Cell Text should be \"$243,250\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HkBfxaYxJXB"
+        }
+      ],
+      "type": "Sum",
+      "id": "SyNGlateJ7S"
+    }
+  ]
+}

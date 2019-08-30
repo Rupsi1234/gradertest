@@ -1,0 +1,246 @@
+{
+  "type": "Sum",
+  "score": 100,
+  "rules": [
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"Cash\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "ryyezkHjTzr",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 7,
+            "cellIndex": 0
+          },
+          "submittedData": {
+            "property": "value",
+            "value": "Cash"
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "SkAz1SiafS",
+      "gotScore": 12,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"$17,300\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "SkZeG1BjTzH",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 7,
+            "cellIndex": 1
+          },
+          "submittedData": {
+            "property": "value",
+            "value": 17300
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "rkxlMySiazB",
+      "gotScore": 12,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"Accounts Receivable\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HJElGyHj6MH",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 8,
+            "cellIndex": 0
+          },
+          "submittedData": {
+            "property": "value",
+            "value": "Accounts Receivable"
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "BJXlf1SsaGH",
+      "gotScore": 12,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"$33,550\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "B1IefkBs6zr",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 8,
+            "cellIndex": 1
+          },
+          "submittedData": {
+            "property": "value",
+            "value": 33550
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "SJBlfJBo6MH",
+      "gotScore": 12,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"Fees Earned\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HyC-z1SoazH",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 16,
+            "cellIndex": 0
+          },
+          "submittedData": {
+            "property": "value",
+            "value": "Fees Earned"
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "HJaWfJri6zH",
+      "gotScore": 13,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"$409,255\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "rJZMz1Hi6Gr",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 16,
+            "cellIndex": 2
+          },
+          "submittedData": {
+            "property": "value",
+            "value": 409255
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "BJlGMySjaGS",
+      "gotScore": 13,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"Wages Expense\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "B1mfMySj6zr",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 18,
+            "cellIndex": 0
+          },
+          "submittedData": {
+            "property": "value",
+            "value": "Wages Expense"
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "H1GGzySiaMH",
+      "gotScore": 13,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": "Cell Text should be \"$243,250\".",
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "rJrfz1riTMH",
+          "status": "pass",
+          "targetCell": {
+            "sheetIndex": "0",
+            "rowIndex": 18,
+            "cellIndex": 1
+          },
+          "submittedData": {
+            "property": "value",
+            "value": 243250
+          }
+        }
+      ],
+      "type": "Sum",
+      "id": "HyNGMkrjTMS",
+      "gotScore": 13,
+      "status": "pass",
+      "hintPenaltyApplied": false
+    }
+  ]
+}

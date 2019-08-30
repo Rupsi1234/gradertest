@@ -1,0 +1,25 @@
+{
+  "engineSettings": {
+    "version": "1.0.0",
+    "name": "DefaultGradingEngine",
+    "matchSettings": {
+      "matcher": "DefaultOOOMatcher",
+      "matchingStrategies": {
+        "#sheets": {
+          "type": "SheetOOOMatchingStrategy",
+          "textWeightage": ""
+        },
+        "#rows": {
+          "type": "RowOOOMatchingStrategy",
+          "textWeightage": 0.8,
+          "cellRefWeightage": 0.2
+        },
+        "#cells": {
+          "type": "CellOOOMatchingStrategy",
+          "textWeightage": 0.8,
+          "cellRefWeightage": 0.2
+        }
+      }
+    }
+  }
+}

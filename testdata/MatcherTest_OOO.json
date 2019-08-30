@@ -1,0 +1,102 @@
+    [ {
+          "TCID":"MTC02",
+          "TestCase": " Validate Perfect scenarios",
+          "Priority": "P2",
+          "Assignment":"../MOCHADEMO/testdata/Item1/Input",
+          "Submission":"../MOCHADEMO/testdata/Item1/MTC02",
+          "Function":"Grader"
+              
+          },
+        {
+          "TCID":"MTC03",
+          "TestCase": "Validate scenarios where Rows position interchanged w.r.t. solution",
+          "Priority": "P2",
+          "Assignment":"../MOCHADEMO/testdata/Item2/Input",
+          "Submission":"../MOCHADEMO/testdata/Item2/MTC03",
+          "Function":"Grader"
+                
+        },
+        {
+          "TCID":"MTC04",
+          "TestCase": "Validate scenarios where Rows position interchanged w.r.t. solution",
+          "Priority": "Matcher",
+          "Assignment":"../MOCHADEMO/testdata/Item2/Input",
+          "Submission":"../MOCHADEMO/testdata/Item2/MTC04",
+          "Function":"Grader"
+            
+           
+        },
+         {
+          "TCID":"MTC05",
+          "TestCase": "Validate contribution of Text and Position in Row Matching",
+          "Priority": "Matcher",
+          "Assignment":"../MOCHADEMO/testdata/Item3/Input",
+          "Submission":"../MOCHADEMO/testdata/Item3/MTC05",
+          "Function":"Grader"
+              
+          },
+           {
+             "TCID":"MTC06",
+            "TestCase": "Validate contribution of Text and Position in Row Matching",
+            "Priority": "Grader",
+             "Assignment":"../MOCHADEMO/testdata/Item3/Input",
+            "Submission":"../MOCHADEMO/testdata/Item3/MTC06",
+            "Function":"Grader"
+              
+          },
+          
+          {
+          "TCID":"MTC08",
+          "TestCase": "Validate contribution of Text and Position in Row Matching",
+          "Priority": "Grader",
+          "Assignment":"../MOCHADEMO/testdata/Item3/Input",
+          "Submission":"../MOCHADEMO/testdata/Item3/MTC08",
+          "Function":"Grader"
+              
+          },
+          {
+          "TCID":"MTC09",
+          "TestCase": " Validate Missing and Extra Row scenarios",
+          "Priority": "Grader",
+          "Assignment":"../MOCHADEMO/testdata/Item4/Input",
+          "Submission":"../MOCHADEMO/testdata/Item4/MTC09",
+          "Function":"Grader"
+              
+          },
+          {
+          "TCID":"MTC10",
+          "TestCase": " Validate Missing and Extra Row scenarios",
+          "Priority": "Matcher",
+          "Assignment":"../MOCHADEMO/testdata/Item4/Input",
+          "Submission":"../MOCHADEMO/testdata/Item4/MTC10",
+          "Function":"Grader"
+              
+          },
+          {
+          "TCID":"MTC11",
+          "TestCase": " Validate Missing and Extra Row scenarios",
+          "Priority": "Matcher",
+          "Assignment":"../MOCHADEMO/testdata/Item4/Input",
+          "Submission":"../MOCHADEMO/testdata/Item4/MTC11",
+          "Function":"Grader"
+              
+          },
+          {
+         "TCID":"MTC12",
+          "TestCase": " Validate Missing and Extra Row scenarios",
+          "Priority": "P3",
+          "Assignment":"../MOCHADEMO/testdata/Item4/Input",
+          "Submission":"../MOCHADEMO/testdata/Item4/MTC12",
+          "Function":"Grader"
+          },
+          {
+          "TCID":"MTC13",
+          "TestCase": " Validate Missing and Extra Row scenarios",
+          "Priority": "P3",
+          "Assignment":"../MOCHADEMO/testdata/Item4/Input",
+          "Submission":"../MOCHADEMO/testdata/Item4/MTC12",
+          "Function":"Grader"
+          }
+            ]
+        
+    

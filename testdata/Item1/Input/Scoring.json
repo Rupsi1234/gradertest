@@ -1,0 +1,166 @@
+{
+  "type": "Sum",
+  "score": 100,
+  "rules": [
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Cash\".",
+            "failureText": "Cell Text should be \"Cash\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "r11x3eBgkXH"
+        }
+      ],
+      "type": "Sum",
+      "id": "rk0hxSx1XS"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$17,300\".",
+            "failureText": "Cell Text should be \"$17,300\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HkZghlSgJmB"
+        }
+      ],
+      "type": "Sum",
+      "id": "r1eehgrlk7B"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Accounts Receivable\".",
+            "failureText": "Cell Text should be \"Accounts Receivable\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "HkNghgrek7r"
+        }
+      ],
+      "type": "Sum",
+      "id": "SkQeheBekQH"
+    },
+    {
+      "score": 12,
+      "rules": [
+        {
+          "score": 12,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$33,550\".",
+            "failureText": "Cell Text should be \"$33,550\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "BJIgneBek7H"
+        }
+      ],
+      "type": "Sum",
+      "id": "HyrxhgHx1QB"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Fees Earned\".",
+            "failureText": "Cell Text should be \"Fees Earned\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "SyAZnxSeJXS"
+        }
+      ],
+      "type": "Sum",
+      "id": "SJTbnlrxJQB"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$409,255\".",
+            "failureText": "Cell Text should be \"$409,255\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "SyWz3lHlJXH"
+        }
+      ],
+      "type": "Sum",
+      "id": "rkgf3eBeJXS"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"Wages Expense\".",
+            "failureText": "Cell Text should be \"Wages Expense\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "r17M2eBgJXr"
+        }
+      ],
+      "type": "Sum",
+      "id": "H1fzheSxymr"
+    },
+    {
+      "score": 13,
+      "rules": [
+        {
+          "score": 13,
+          "type": "Validation",
+          "feedback": {
+            "successText": "Cell Text should be \"$243,250\".",
+            "failureText": "Cell Text should be \"$243,250\"."
+          },
+          "toleranceInfo": {
+            "ignoreCase": true,
+            "trimWhitespace": true
+          },
+          "id": "ByHMhxBlJ7B"
+        }
+      ],
+      "type": "Sum",
+      "id": "rkNG2lHe1mH"
+    }
+  ]
+}
