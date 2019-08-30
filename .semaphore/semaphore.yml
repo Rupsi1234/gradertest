@@ -10,12 +10,11 @@ blocks:
   - name: Node.js example
     task:
       jobs:
-        - name: Run some code
+        - name: gradertest
           commands:
            # - node -p '"evol".split("").reverse().join("")'
-		   npm install
-		   npm test
-		    - echo "${GUIDED_TOUR}"
+		     - npm install
+		     - npm test
             - echo 'Unit tests'
             # Uncomment the following line to pull your code,
             # then proceed by adding your custom commands:
