@@ -1,18 +1,16 @@
-version: v1.0
-name: Using execution_time_limit
-agent:
-  machine:
-    type: e1-standard-2
+--- 
+agent: 
+  machine: 
     os_image: ubuntu1804
-
-blocks:
-    name: Building executable
-    task:
-      jobs:
-      - name: Building job
-        commands:
+    type: e1-standard-2
+blocks: 
+  name: "Building executable"
+  task: 
+    jobs: 
+      - 
+        commands: 
           - checkout
-          - echo "Building executable"
-            - npm init
-            - npm install
-            - npm test
+          - "echo \"Building executable\" - npm init - npm install - npm test"
+        name: "Building job"
+name: "Using execution_time_limit"
+version: v1.0
