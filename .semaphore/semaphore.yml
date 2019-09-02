@@ -5,25 +5,14 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 
-
 blocks:
-   -name: Creating Docker Image
-
-    task:
-         # Set environment variables that your project requires.
-         # See https://docs.semaphoreci.com/article/66-environment-variables-and-secrets
-       jobs:    
-      commands:
-             # Get the latest version of our source code from GitHub:
-             - checkout
-             - npm init
-             - npm install
-
-
-   name: Building executable
+    name: Building executable
     task:
       jobs:
       - name: Building job
-        commands: 
-         - cache restore
-          - npm test
+        commands:
+          - checkout
+          - echo "Building executable"
+            - npm init
+            - npm install
+            - npm test
