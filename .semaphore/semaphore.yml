@@ -5,14 +5,22 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 
+
 blocks:
-    name: Building executable
+  - name: Creating Docker Image
+   
+    task:
+      jobs:
+      - name: Docker build
+        commands:
+        - echo $SEMAPHORE_GIT_BRANCH
+          - cd ..
+          - npm install
+          
+
+  - name: Building executable
     task:
       jobs:
       - name: Building job
         commands:
-          - checkout
-          - echo "Building executable"
-            - npm init
-            - npm install
-            - npm test
+          - npm test
