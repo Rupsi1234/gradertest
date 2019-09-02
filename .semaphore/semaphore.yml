@@ -14,6 +14,7 @@ blocks:
       - name: Docker build
         commands:
         - echo $SEMAPHORE_GIT_BRANCH
+          - cd ../
           - npm install
           
 
