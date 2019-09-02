@@ -22,6 +22,7 @@ blocks:
     task:
       jobs:
       - name: Building job
-        commands:
+        commands: 
+        - cd ../
           - npm test
           
