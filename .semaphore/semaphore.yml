@@ -13,6 +13,7 @@ blocks:
       jobs:
       - name: Docker build
         commands:
+        - echo $SEMAPHORE_GIT_BRANCH
           - npm install
           
 
@@ -22,4 +23,4 @@ blocks:
       - name: Building job
         commands:
           - npm test
-          - echo $SEMAPHORE_GIT_BRANCH
+          
