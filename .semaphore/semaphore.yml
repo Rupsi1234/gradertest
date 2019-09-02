@@ -1,9 +1,5 @@
-# Use the latest stable version of Semaphore 2.0 YML syntax:
 version: v1.0
-
-
-name: gradertest
-
+name: Using execution_time_limit
 agent:
   machine:
     type: e1-standard-2
@@ -11,41 +7,19 @@ agent:
 
 
 blocks:
-  - name: Install dependencies
+  - name: Creating Docker Image
+   
     task:
-     
-     
       jobs:
-        # First parallel job:
-        - name: client npm install and cache
-          commands:
-          -echo $SEMAPHORE_GIT_BRANCH
-            - cache restore client-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json),client-node-modules-$SEMAPHORE_GIT_BRANCH,client-node-modules-master
-            - npm install
-
-                       - cache store client-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json) node_modules
-
-        
-
- 
-      
-
-  - name: Tests
-    task:
-      env_vars:
-        - name: NODE_ENV
-          value: test
-        - name: CI
-          value: 'true'
-      prologue:
+      - name: Docker build
         commands:
-         - node --version
-         
-      jobs:
-        - name: Client Tests
-          commands:
+          - npm install
           
-            - npm test
-        
 
- 
+  - name: Building executable
+    task:
+      jobs:
+      - name: Building job
+        commands:
+          - npm test
+          - echo $SEMAPHORE_GIT_BRANCH
