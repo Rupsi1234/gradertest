@@ -7,7 +7,7 @@ agent:
 
 
 blocks:
-  - name: Creating Docker Image
+   name: Creating Docker Image
    prologue:
     task:
          # Set environment variables that your project requires.
