@@ -1,7 +1,33 @@
 {
-    "author": "Grader",
-    "dependencies": {
-        "argv": "0.0.2",
+  "_from": "semaphore",
+  "_id": "semaphore@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-O4OZEaNtkMd/K0i6js9SL+gqy0ZCBMgUvlSqHKi4IBdjhe7wB8pwztUk1BbZ1fmrvpwFrPbHzqd2w5pTcJH6LA==",
+  "_location": "/semaphore",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "semaphore",
+    "name": "semaphore",
+    "escapedName": "semaphore",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/semaphore/-/semaphore-1.1.0.tgz",
+  "_shasum": "aaad8b86b20fe8e9b32b16dc2ee682a8cd26a8aa",
+  "_spec": "semaphore",
+  "_where": "E:\\MOCHADEMO",
+  "bugs": {
+    "url": "https://github.com/abrkn/semaphore.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": { "argv": "0.0.2",
         "asyncawait": "^1.0.6",
         "chai": "^4.1.2",
         "config": "^3.1.0",
@@ -21,22 +47,26 @@
         "read-json-sync": "^2.0.0",
         "request": "^2.88.0",
         "rimraf": "^2.6.2",
-        "winston": "^3.2.1"
-    },
-    "description": "MOCHA Automation",
-    "license": "ISC",
-    "main": "app.js",
-    "name": "DEMO",
-    "scripts": {
-        "test": "mocha test/mochatest.js  --grep \"MTC\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 ",
-        "test1": "mocha test/mochatest.js  --grep \"MTC\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1,Version_2 ",
-        "test2": "mocha test/mochatest.js  --grep \"MTC10\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 "
-         },
-    "version": "1.0.0",
-    "devDependencies": {
-        "chai": "^4.2.0",
-        "mocha": "^6.1.4",
-        "mocha-tags": "^1.0.1",
-        "mochawesome": "^3.1.2"
-    }
+        "semaphore": "^1.1.0",
+        "winston": "^3.2.1"},
+  "deprecated": false,
+  "description": "semaphore for node",
+  "devDependencies": {
+    "mocha": "2.x.x",
+    "should": "8.x.x"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/abrkn/semaphore.js",
+  "main": "./lib/semaphore.js",
+  "name": "semaphore",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abrkn/semaphore.js.git"
+  },
+  "scripts": {
+     "test": "mocha test/mochatest.js  --grep \"MTC\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 ",
+  },
+  "version": "1.1.0"
 }
