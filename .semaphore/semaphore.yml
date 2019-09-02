@@ -22,14 +22,14 @@ blocks:
           - checkout
   
       jobs:
-      - name: Docker build
+      name: Docker build
         commands:
            - cache restore
 	   - npm install
             - cache store
           
 
-  - name: Building executable
+   name: Building executable
     task:
       jobs:
       - name: Building job
