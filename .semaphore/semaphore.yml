@@ -14,7 +14,6 @@ blocks:
       - name: Docker build
         commands:
         
-          - cd..
           - npm install
           
 
