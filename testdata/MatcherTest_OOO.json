@@ -2,8 +2,8 @@
           "TCID":"MTC02",
           "TestCase": " Validate Perfect scenarios",
           "Priority": "P2",
-          "Assignment":"../MOCHADEMO/testdata/Item1/Input",
-          "Submission":"../MOCHADEMO/testdata/Item1/MTC02",
+          "Assignment":"../../testdata/Item1/Input",
+          "Submission":"../../testdata/Item1/MTC02",
           "Function":"Grader"
               
           },
@@ -11,8 +11,8 @@
           "TCID":"MTC03",
           "TestCase": "Validate scenarios where Rows position interchanged w.r.t. solution",
           "Priority": "P2",
-          "Assignment":"../MOCHADEMO/testdata/Item2/Input",
-          "Submission":"../MOCHADEMO/testdata/Item2/MTC03",
+          "Assignment":"../../testdata/Item2/Input",
+          "Submission":"../../testdata/Item2/MTC03",
           "Function":"Grader"
                 
         },
@@ -20,8 +20,8 @@
           "TCID":"MTC04",
           "TestCase": "Validate scenarios where Rows position interchanged w.r.t. solution",
           "Priority": "Matcher",
-          "Assignment":"../MOCHADEMO/testdata/Item2/Input",
-          "Submission":"../MOCHADEMO/testdata/Item2/MTC04",
+          "Assignment":"../../testdata/Item2/Input",
+          "Submission":"../../testdata/Item2/MTC04",
           "Function":"Grader"
             
            
