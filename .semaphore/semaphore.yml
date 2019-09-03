@@ -14,7 +14,7 @@ blocks:
       - name: Docker build
         commands:
          - npm init
-          - npm install npm@latest -g
+          - npm install
           
 
   - name: Building executable
