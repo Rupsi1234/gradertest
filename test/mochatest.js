@@ -13,47 +13,54 @@
       var solutionJSON, solutionJSON,expectedJSON,expectedJSON,expectedJSON
 
 
-function test(Assignment,Submission,Function1,TC_NAME,done) {
-    try {
+
  
       
-        if (Function1.includes("Matcher")) { 
-           solutionJSON = fs.readFileSync(Assignment+"/Solution.json")
-           SubmissionJSON = fs.readFileSync(Submission+"/submission.json")
-           expectedJSON=fs.readFileSync(Submission+"/Expected.json")
-           settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json")
-                  var compareOutput =validateMatcherOutput(solutionJSON, SubmissionJSON, settingsJSON,expectedJSON,)
-                          if (compareOutput=="")
-                          done()
-                          else 
-                          done(new Error(compareOutput));  
+function testGrade(Assignment,Submission,functionName,TC_NAME,done) {
+    if (functionName.includes("Matcher")) { 
+     try {
+           solutionJSON = fs.readFileSync(Assignment+"/Solution.json");
+           submissionJSON = fs.readFileSync(Submission+"/Submission.json");
+           expectedJSON=fs.readFileSync(Submission+"/Expected.json");
+           settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json");
+               var compareOutput =validateMatcherOutput(solutionJSON, submissionJSON, settingsJSON,expectedJSON,)
+                  if (compareoutput=="")
+                  done()
+                  else 
+                  done(new error(compareoutput));  
             }
-      
-         if (Function1.includes("Grader")) { 
-               solutionJSON = fs.readFileSync(Assignment+"/Solution.json")
-               scoringJSON=fs.readFileSync(Assignment+"/Scoring.json")
-               settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json")
-               SubmissionJSON = fs.readFileSync(Submission+"/submission.json")
-               expectedJSON=fs.readFileSync(Submission+"/Expected.json")
-                         var GraderOutput1 =validateGraderOutput(solutionJSON, SubmissionJSON, scoringJSON, settingsJSON,expectedJSON);    
+             catch (err) {
+              if (err.code === 'ENOENT') {
+              done(new Error('File not found!'));
+              }else {
+                throw err;}
+             }
+       }
+       else{  
+         
+       if (functionName.includes("Grader")) { 
+        try{
+           solutionJSON = fs.readFileSync(Assignment+"/Solution.json")
+           scoringJSON=fs.readFileSync(Assignment+"/Scoring.json")
+           settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json")
+           submissionJSON = fs.readFileSync(Submission+"/Submission.json")
+           expectedJSON=fs.readFileSync(Submission+"/Expected.json")
+             var graderOutput1 =validateGraderOutput(solutionJSON, submissionJSON, scoringJSON, settingsJSON,expectedJSON);    
+                    if (graderOutput1==""){
+                    done()}
+                    else {
+                    done(new Error("Scoring are not matched for " +graderOutput1));}
                                  
-                                  if (GraderOutput1==""){
-                                 
-                                  done()}
-                                else {
-                              
-                                
-                                done(new Error("Scoring are not matched for " +GraderOutput1));}
-                           
-                         }
+                   }  catch (err) {
+                        if (err.code === 'ENOENT') {
+                     	       		done(new Error('File not found!'));
+                     	       		 } else {
+                     	       		   throw err;}
+                   }
+           }
+      }
 
-    } 
-    catch (err) {
-        console.log(err);
-
-    }
-
-}        
+    }        
     describe("Grader Test", function() {
       try{
          GVersion1 = GVersion.toString().split(",");
@@ -82,7 +89,7 @@ function test(Assignment,Submission,Function1,TC_NAME,done) {
                                                                const Submission = testCaseKey.Submission;
                                                                const Function1 = testCaseKey.Function;
                                                                 it(TestCaseArray[i]+':'+TC_NAME+'--'+TC_Tags, function(done) {
-                                                                      test(Assignment,Submission,Function1,TC_NAME,done,function()
+                                                                      testGrade(Assignment,Submission,Function1,TC_NAME,done,function()
                                                                        {console.log( TC_NAME +" end") });
                                                                  })
                                                            }
