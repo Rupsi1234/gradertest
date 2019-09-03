@@ -31,7 +31,7 @@ function testGrade(Assignment,Submission,functionName,TC_NAME,done) {
             }
              catch (err) {
               if (err.code === 'ENOENT') {
-              done(new Error('File not found!'));
+              done(new Error('File not found!'+Assignment));
               }else {
                 throw err;}
              }
@@ -40,7 +40,7 @@ function testGrade(Assignment,Submission,functionName,TC_NAME,done) {
          
        if (functionName.includes("Grader")) { 
         try{
-           solutionJSON = fs.readFileSync(Assignment+"/Solution.json")
+           solutionJSON = fs.readFileSync(Assignment+"/Solution1.json")
            scoringJSON=fs.readFileSync(Assignment+"/Scoring.json")
            settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json")
            submissionJSON = fs.readFileSync(Submission+"/Submission.json")
@@ -53,7 +53,7 @@ function testGrade(Assignment,Submission,functionName,TC_NAME,done) {
                                  
                    }  catch (err) {
                         if (err.code === 'ENOENT') {
-                     	       		done(new Error('File not found!'));
+                     	       		done(new Error('File not found!'+ Assignment));
                      	       		 } else {
                      	       		   throw err;}
                    }
