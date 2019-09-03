@@ -29,7 +29,7 @@
     "main": "app.js",
     "name": "DEMO",
     "scripts": {
-        "test": "mocha test/mochatest.js  --grep \"MTC02\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 ",
+        "test": "mocha test/mochatest.js  --grep \"MTC\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 ",
         "test1": "mocha test/mochatest.js  --grep \"MTC\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1,Version_2 ",
         "test2": "mocha test/mochatest.js  --grep \"MTC10\" --reporter mochawesome --reporter-options overwrite=False  --global Version_1 "
     },
