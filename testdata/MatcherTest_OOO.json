@@ -2,8 +2,8 @@
           "TCID":"MTC02",
           "TestCase": " Validate Perfect scenarios",
           "Priority": "P2",
-          "Assignment":"../testdata/Item1/Input",
-          "Submission":"../testdata/Item1/MTC02",
+          "Assignment":"./testdata/Item1/Input",
+          "Submission":"./testdata/Item1/MTC02",
           "Function":"Grader"
               
           },
