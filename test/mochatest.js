@@ -40,7 +40,7 @@ function testGrade(Assignment,Submission,functionName,TC_NAME,done) {
          
        if (functionName.includes("Grader")) { 
         try{
-           solutionJSON = fs.readFileSync(Assignment+"/Solution1.json")
+           solutionJSON = fs.readFileSync(Assignment+"/Solution.json")
            scoringJSON=fs.readFileSync(Assignment+"/Scoring.json")
            settingsJSON=fs.readFileSync(Assignment+"/settingsJSON.json")
            submissionJSON = fs.readFileSync(Submission+"/Submission.json")
