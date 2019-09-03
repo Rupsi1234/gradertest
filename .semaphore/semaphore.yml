@@ -13,8 +13,8 @@ blocks:
       jobs:
       - name: Docker build
         commands:
-        
-          - npm install
+         - npm init
+          - npm install npm@latest -g
           
 
   - name: Building executable
