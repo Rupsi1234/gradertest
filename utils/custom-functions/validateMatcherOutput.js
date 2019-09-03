@@ -1,4 +1,4 @@
-const Grader = require('../../../dist/leonardograder.bundle.js');
+const Grader = require('../../utils/leonardograder.js');
 const compareJSON = require('./jsonCompare.js');
 const fs = require('fs');
 module.exports = function validateMatcherOutput(solutionJSON, submissionJSON, settingsJSON,expectedJSON) {
