@@ -13,7 +13,7 @@ blocks:
       jobs:
       - name: Docker build
         commands:
-         - npm init
+         - npm cache clean
           - npm install
           
 
