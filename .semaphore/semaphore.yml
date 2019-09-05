@@ -17,7 +17,10 @@ blocks:
       jobs:
       - name: Download our code
         commands:
-        - install-package --update-new google-chrome-stable
         - checkout
         - npm install
         - npm test
+notifications:
+  email:
+    - rupsi.mehta@comprotechnologies.com
+    
