@@ -19,7 +19,4 @@ blocks:
         commands:
         - checkout
         - npm install
-        - npm test   
-notify:
-  email:
-    - rupsi.mehta@comprotechnologies.com
+        - npm test
